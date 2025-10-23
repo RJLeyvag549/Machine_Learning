@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-iris_dataset = pd.read_csv("data/iris.csv")
+iris_dataset = pd.read_csv("../data/iris.csv")
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
